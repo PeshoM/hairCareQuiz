@@ -1,0 +1,74 @@
+.heroWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heroImg {
+  width: 100vw;
+}
+
+.heroForegroundImg {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+}
+
+.heroContentWrapper {
+  z-index: 1;
+  position: absolute;
+  margin-left: 50%;
+  transform: translate(-50%, 0%);
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.heroTextWrapper {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+}
+
+.heroTextWrapper h1 {
+  /* font-family: "Courier"; */
+  font-weight: 400%;
+  font-size: 40pt;
+  margin: 0;
+}
+
+.heroTextWrapper p {
+  font-size: 16pt;
+  margin: 0;
+}
+
+.heroButtonWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroButtonWrapper button {
+  background: #c3edff;
+  border: none;
+  border-radius: 5px;
+  height: 45px;
+  min-width: 175px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 12pt;
+  color: #1c2635;
+}
+
+.heroButtonWrapper button:hover {
+  transition: 0.2s;
+  background-color: #41a2cc;
+}
